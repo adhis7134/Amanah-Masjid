@@ -1,0 +1,25 @@
+name: amanah_masjid_mobile
+description: Aplikasi AmanahMasjid - Multi-Role (Jamaah & DKM) dan Pengingat Ibadah Traveler
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0
+  intl: ^0.19.0
+  url_launcher: ^6.3.0       # Navigasi Deep-Link Google Maps Gratis
+  geolocator: ^11.0.0         # GPS Hardware HP Gratis
+  shared_preferences: ^2.2.2 # Session User & Role
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
